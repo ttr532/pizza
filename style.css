@@ -1,0 +1,593 @@
+body {
+    margin: 0   auto;
+    position: relative;
+width: 100%;
+margin: 0;
+padding: 0;
+font-family: Fredoka One;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+background-color: #161616;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(16, [col-start] 1fr);
+    row-gap: 20px;   
+}
+.name{
+    grid-column: 2 / span 4;
+    grid-row: 10;   
+    font-family: Kaushan Script;
+    font-size: 60px;
+    color: #FFEA00;
+}
+.ux_designer{
+    grid-column: 2 / span 10;
+    grid-row: 11;
+    font-size: 30px;
+color: rgba(255, 255, 255, 0.26);
+}
+.bout{
+    grid-column: 2 / span 10;
+    grid-row: 14;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-style: bold;
+    line-height: 40px;
+
+}
+.border{
+border: 0.1px solid #FFEA00;
+height: 80%;
+max-width: 0.01px;
+grid-column: 2 / span 4;
+grid-row: 15;
+position: relative;
+bottom: 10%;
+}
+.voice{
+    grid-column: 4 / span 16;
+    grid-row: 15;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-style: bold;
+    line-height: 40px; 
+    position: relative;
+    right: 11%;
+    bottom: 18%;
+}
+.cover{
+    grid-column: 2 / span 4;
+    grid-row: 16;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-style: bold;
+    line-height: 40px;  
+    position: relative;
+    bottom: 65%; 
+}
+.email{
+    font-family: Avenir Next;
+    font-size: 9px;
+    color: #FFEA00;
+    grid-column: 2 / span 2;
+    grid-row: 25;
+}
+.phone{
+    font-family: Avenir Next;
+    font-size: 9px;
+    color: #FFEA00;
+    grid-column: 12 / span 2;
+    grid-row: 25;
+}
+.num{
+    grid-column: 2 / span 4;
+    grid-row: 26;
+    font-size: 12px;
+    position: relative;
+    bottom: 100%;
+    color: white;
+}
+.num span{
+    color:  rgba(255, 255, 255, 0.26);
+}
+.numbr{
+    grid-column: 12 / span 4;
+    grid-row: 26;
+    font-size: 12px;
+    position: relative;
+    bottom: 100%;
+    color:  rgba(255, 255, 255, 0.26);
+}
+.numbr span{
+    color:  white;
+}
+.dott{
+    border: none;
+    border-top: 1px dotted;
+    color: grey;
+    height: 1px;
+    width: 100%;
+    grid-row: 50;
+    grid-column: 1 / span 80;
+}
+.knopka8{
+    font-size: 9px;
+    color: white; 
+    grid-column: 15 / span 6;
+    grid-row: 51; 
+    position: relative; 
+    bottom: 50%;
+}
+.me{
+     font-family: Kaushan Script;
+     font-size: 60px;
+     color:  rgba(255, 255, 255, 0.26);
+     grid-column: 7 / span 16;
+     grid-row: 1;
+}
+.im{
+    font-family: Avenir Next;
+    font-size: 18px;
+    color: white;
+    grid-column: 5 / span 10;
+    grid-row: 3;
+}
+.edu{
+    font-family: Avenir Next;
+    font-size: 9px;
+    color: #FFEA00;
+    grid-column: 2 / span 2;
+    grid-row: 15;
+}
+.exp{
+    font-family: Avenir Next;
+    font-size: 9px;
+    color: #FFEA00;
+    grid-column: 8 / span 10;
+    grid-row: 15;
+}
+.data{
+    font-family: Avenir Next;
+    font-size: 9px;
+    color: #FFEA00;
+    grid-column: 14 / span 10;
+    grid-row: 15;
+}
+.fami{
+    font-family: Avenir Next;
+    font-size: 9px;
+    color: #FFEA00;
+    grid-column: 2 / span 10;
+    grid-row: 18;
+}
+.skils{
+    font-family: Avenir Next;
+    font-size: 9px;
+    color: #FFEA00;
+    grid-column: 8 / span 10;
+    grid-row: 18;
+}
+.edu2{
+    grid-column: 2 / span 10;
+    grid-row: 16;
+    font-size: 12px;
+    position: relative;
+    bottom: 50%;
+    color:  white;
+}
+.exp2{
+    grid-column: 8 / span 10;
+    grid-row: 16;
+    font-size: 12px;
+    position: relative;
+    bottom: 50%;
+    color:  white;
+}
+.data2{
+    grid-column: 14 / span 10;
+    grid-row: 16;
+    font-size: 12px;
+    position: relative;
+    bottom: 50%;
+    color:  white;
+}
+.fami2{
+    grid-column: 2 / span 10;
+    grid-row: 19;
+    font-size: 12px;
+    position: relative;
+    bottom: 100%;
+    color:  white;
+}
+.skils2{
+    grid-column: 8 / span 10;
+    grid-row: 19;
+    font-size: 12px;
+    position: relative;
+    bottom: 100%;
+    color:  white;
+}
+.ldot{
+    border: none;
+    border-top: 1px dotted;
+    color: grey;
+    height: 1px;
+    width: 100%;
+    grid-row: 50;
+    grid-column: 1 / span 80;
+}
+.knopka6{
+    font-size: 9px;
+    color: white; 
+    grid-column: 15 / span 6;
+    grid-row: 51; 
+    position: relative; 
+    bottom: 50%;
+}
+.knopka7{
+    font-size: 9px;
+    color: white; 
+    grid-column: 2 / span 6;
+    grid-row: 51; 
+    position: relative; 
+    bottom: 50%;
+}
+.border2{
+    border: 1px solid grey;
+    height: 12000%;
+    max-width: 0.1px;
+    grid-column: 9 / span 1;
+    grid-row: 1;
+}
+.expere{
+    grid-column: 5 / span 8;
+    grid-row: 23;   
+    font-family: Kaushan Script;
+    font-size: 60px;
+    color: #FFEA00;
+}
+.border3{
+    border: 1px solid grey;
+    height: 12000%;
+    max-width: 0.1px;
+    grid-column: 9 / span 1;
+    grid-row: 30;   
+}
+.dot{
+    border: none;
+    border-top: 1px dotted;
+    color: grey;
+    height: 1px;
+    width: 100%;
+    grid-row: 50;
+    grid-column: 1 / span 80;
+}
+.knopka4{
+    font-size: 9px;
+    color: white; 
+    grid-column: 15 / span 6;
+    grid-row: 51; 
+    position: relative; 
+    bottom: 50%;
+}
+.knopka5{
+    font-size: 9px;
+    color: white; 
+    grid-column: 2 / span 6;
+    grid-row: 51; 
+    position: relative; 
+    bottom: 50%;
+}
+.tnx{
+    grid-column: 8 / span 4;
+    grid-row: 10;   
+    font-family: Kaushan Script;
+    font-size: 130px;
+    color: #FFEA00;
+}
+.img{
+    background-image: url(./vn.jpg);
+    left: 0;
+    right: 0;
+    background-size: 100%;
+}     
+.imgb{
+    grid-column: 4 / span 6;
+    grid-row: 40;   
+}
+.knopka2{
+    font-size: 9px;
+    color: white; 
+    grid-column: 15 / span 6;
+    grid-row: 51; 
+    position: relative; 
+    bottom: 50%;
+}
+.knopka3{
+    font-size: 9px;
+    color: white; 
+    grid-column: 2 / span 6;
+    grid-row: 51; 
+    position: relative; 
+    bottom: 50%;
+}
+.txt {
+    font-size: 13px;
+    color: white; 
+    grid-column: 6 / span 6;
+    grid-row: 40;
+    position: relative;
+    top: 30%;
+}
+.lydot{
+    border: none;
+    border-top: 1px dotted;
+    color: grey;
+    height: 1px;
+    width: 100%;
+    grid-row: 50;
+    grid-column: 1 / span 80;
+}
+.lyndot{
+    border: none;
+    border-top: 1px dotted;
+    color: grey;
+    height: 1px;
+    width: 100%;
+    grid-row: 50;
+    grid-column: 1 / span 80;
+}
+.info{
+    font-family: Avenir Next;
+    font-size: 12px;
+    color:  rgba(255, 255, 255, 0.26);
+    grid-column: 2 / span 16;
+    grid-row: 20;
+}
+.email2{
+    font-family: Avenir Next;
+    font-size: 9px;
+    color: #FFEA00;
+    grid-column: 2 / span 2;
+    grid-row: 25;
+}
+.email3{
+    grid-column: 2 / span 10;
+    grid-row: 26;
+    font-size: 12px;
+    position: relative;
+    bottom: 50%;
+    color:  white;
+}
+.email3 span{
+    color:  rgba(255, 255, 255, 0.26);
+}
+.phone2{
+    font-family: Avenir Next;
+    font-size: 9px;
+    color: #FFEA00;
+    grid-column: 2 / span 2;
+    grid-row: 27;
+}
+.phone3{
+    grid-column: 2 / span 10;
+    grid-row: 28;
+    font-size: 12px;
+    position: relative;
+    bottom: 50%;
+    color:  rgba(255, 255, 255, 0.26);
+}
+.phone3 span{
+    color: white;
+}
+.knopka1{
+    font-size: 9px;
+    color: white; 
+    grid-column: 2 / span 6;
+    grid-row: 51; 
+    position: relative; 
+    bottom: 50%;
+}
+.knopka:hover {
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+@media(max-width:815px){
+    .imgb{
+        grid-column: 4 / span 6;
+        grid-row: 40;
+    }
+.txt {
+    font-size: 13px;
+    color: white; 
+    grid-column: 7 / span 6;
+    position: relative;
+    top: 30%;
+}
+}
+@media(max-width:568px){
+    .txt {
+        font-size: 13px;
+        color: white; 
+        grid-column: 8 / span 6;
+        position: relative;
+        top: 30%;
+    }
+    .tnx{
+        grid-column: 6 / span 4;
+        grid-row: 10;   
+        font-size: 100px;
+    }
+}
+@media(max-width:546px){
+    .expere {
+        grid-column: 6 / span 8;  
+        font-size: 30px;
+    }
+}
+@media(max-width:460px){
+    .knopka4{ 
+        grid-column: 13 / span 6;
+    }
+}
+@media(max-width:400px){
+    .imgb{
+    grid-column: 2 / span 6;
+    grid-row: 40;
+  }
+  .knopka6{ 
+    grid-column: 14 / span 6;
+}
+}
+@media(max-width:340px){
+    .num{
+        grid-column: 2 / span 6;
+        position: relative;
+        top: 20%;
+    }
+    .expere {
+        grid-column: 4 / span 8;  
+        font-size: 30px;
+    }
+    .numbr{
+        grid-column: 12 / span 10;
+        position: relative;
+        top: 20%;
+    }
+    .knopka8{
+        color: white; 
+        grid-column: 14 / span 6;
+    }
+    .me{
+        grid-column: 5 / span 16;
+        grid-row: 1;
+   }
+   .tnx{
+    grid-column: 3 / span 4;
+    grid-row: 10;   
+    font-size: 80px;
+     }
+   .knopka6{ 
+    grid-column: 14 / span 6;
+    }
+    .knopka4{ 
+        grid-column: 12 / span 6;
+    }
+}
+@media(max-width:300px){
+    .edu{
+        font-family: Avenir Next;
+        font-size: 5px;
+        color: #FFEA00;
+        grid-column: 2 / span 2;
+        grid-row: 15;
+    }
+    .exp{
+        font-family: Avenir Next;
+        font-size: 5px;
+        color: #FFEA00;
+        grid-column: 8 / span 10;
+        grid-row: 15;
+    }
+    .data{
+        font-family: Avenir Next;
+        font-size: 5px;
+        color: #FFEA00;
+        grid-column: 14 / span 10;
+        grid-row: 15;
+    }
+    .fami{
+        font-family: Avenir Next;
+        font-size: 5px;
+        color: #FFEA00;
+        grid-column: 2 / span 10;
+        grid-row: 18;
+    }
+    .skils{
+        font-family: Avenir Next;
+        font-size: 5px;
+        color: #FFEA00;
+        grid-column: 8 / span 10;
+        grid-row: 18;
+    }
+    .edu2{
+        grid-column: 2 / span 10;
+        grid-row: 16;
+        font-size: 8px;
+        position: relative;
+        bottom: 50%;
+        color:  white;
+    }
+    .exp2{
+        grid-column: 8 / span 10;
+        grid-row: 16;
+        font-size: 8px;
+        position: relative;
+        bottom: 50%;
+        color:  white;
+    }
+    .data2{
+        grid-column: 14 / span 10;
+        grid-row: 16;
+        font-size: 8px;
+        position: relative;
+        bottom: 50%;
+        color:  white;
+    }
+    .fami2{
+        grid-column: 2 / span 10;
+        grid-row: 19;
+        font-size: 8px;
+        position: relative;
+        bottom: 100%;
+        color:  white;
+    }
+    .skils2{
+        grid-column: 8 / span 10;
+        grid-row: 19;
+        font-size: 8px;
+        position: relative;
+        bottom: 100%;
+        color:  white;
+    }
+    .txt {
+        font-size: 10px;
+        color: white; 
+        grid-column: 10 / span 6;
+        position: relative;
+        top: 30%;
+    }
+}
+@media(max-width:270px){
+    .knopka2{ 
+        grid-column: 14 / span 6;
+    }
+    .me{
+        font-size: 50px;
+        grid-column: 4 / span 16;
+        grid-row: 1;
+   }
+   .knopka6{ 
+    grid-column: 12 / span 6;
+}
+}
